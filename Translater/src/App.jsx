@@ -1,11 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Translator from './components/Translator.jsx';
 
 function App() { 
-
-  return
+  return(
+    <div className='container'>
+      <Translator />
+    </div>
+  )
 }
 
 export default App
